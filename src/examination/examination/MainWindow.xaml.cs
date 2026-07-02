@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using examination.Models;
 
 namespace examination
 {
@@ -19,6 +20,18 @@ namespace examination
         public MainWindow()
         {
             InitializeComponent();
+            array.Items.Clear();
+            sortedArray.Items.Clear();
+            surnameBox.Clear();
+            nameBox.Clear();
+            numberBox.Clear();
+        }
+
+        DeansOffice dnof = new DeansOffice();
+
+        private void addButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

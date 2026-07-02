@@ -14,7 +14,7 @@ namespace examination.Models
             var size = students.Count;
             for (int i = 0; i < size - 1; i++)
             {
-                for (int j = 0; j < size - 1; j++)
+                for (int j = 0; j < size - 1 - i; j++)
                 {
                     if (string.Compare(Students[j].surname, Students[j + 1].surname) > 0 
                         && string.Compare(Students[j].name, Students[j + 1].name) > 0)

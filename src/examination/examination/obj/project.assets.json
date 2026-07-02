@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\stu-ipsp123\\Desktop\\examination\\examination\\examination.csproj",
+      "projectUniqueName": "D:\\Users\\stu-ipsp123\\Desktop\\src\\examination\\examination\\examination.csproj",
       "projectName": "examination",
-      "projectPath": "D:\\Users\\stu-ipsp123\\Desktop\\examination\\examination\\examination.csproj",
+      "projectPath": "D:\\Users\\stu-ipsp123\\Desktop\\src\\examination\\examination\\examination.csproj",
       "packagesPath": "D:\\Users\\stu-ipsp123\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\stu-ipsp123\\Desktop\\examination\\examination\\obj\\",
+      "outputPath": "D:\\Users\\stu-ipsp123\\Desktop\\src\\examination\\examination\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
