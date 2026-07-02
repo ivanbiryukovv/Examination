@@ -8,7 +8,8 @@ namespace examination.Models
 {
     class DeansOffice
     {
-        public List<Student> Students;
+        public List<Student> Students = new List<Student>();
+
         public void sortStudents(List<Student> students)
         {
             var size = students.Count;

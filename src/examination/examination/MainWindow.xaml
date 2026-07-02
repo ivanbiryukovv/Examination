@@ -13,14 +13,14 @@
         <ListBox x:Name="array" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,39,464,234"/>
         <Label Content="Массив после сортировки:" HorizontalAlignment="Left" Margin="0,227,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="sortedArray" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,273,464,0"/>
-        <TextBox x:Name="surnameBox" HorizontalAlignment="Left" Margin="381,114,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="nameBox" HorizontalAlignment="Left" Margin="381,160,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="numberBox" HorizontalAlignment="Left" Margin="381,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="120"/>
-        <Button x:Name="addButton" Content="Добавить" HorizontalAlignment="Left" Margin="381,233,0,0" VerticalAlignment="Top" Click="addButton_Click" />
-        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="376,89,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.553,-0.228"/>
-        <Label Content="Имя" HorizontalAlignment="Left" Margin="376,134,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.553,-0.228"/>
-        <Label Content="Номер зачетной книжки" HorizontalAlignment="Left" Margin="377,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.553,-0.228"/>
-        <TextBox x:Name="arraySize" HorizontalAlignment="Left" Margin="381,71,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Размер массива" HorizontalAlignment="Left" Margin="377,45,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="surnameBox" HorizontalAlignment="Left" Margin="383,63,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="nameBox" HorizontalAlignment="Left" Margin="383,109,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="numberBox" HorizontalAlignment="Left" Margin="383,157,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="addButton" Content="Добавить" HorizontalAlignment="Left" Margin="383,182,0,0" VerticalAlignment="Top" Click="addButton_Click" />
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="378,38,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.553,-0.228"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="378,83,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.553,-0.228"/>
+        <Label Content="Номер зачетной книжки" HorizontalAlignment="Left" Margin="379,129,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.553,-0.228"/>
+        <Button x:Name="saveButton" Content="Сохранить в файл" HorizontalAlignment="Left" Margin="383,278,0,0" VerticalAlignment="Top" Click="saveButton_Click" />
+        <Button Content="Отсортировать" HorizontalAlignment="Left" Margin="383,318,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

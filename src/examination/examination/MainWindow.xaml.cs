@@ -31,6 +31,26 @@ namespace examination
 
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
+            string surnameFromBox = surnameBox.Text;
+            string nameFromBox = nameBox.Text;
+            int numberFromBox = Convert.ToInt32(numberBox.Text);
+
+            Student newStudent = new Student()
+            {
+                surname = surnameFromBox,
+                name = nameFromBox,
+                number = numberFromBox
+            };
+
+            string newStudentString = $"{newStudent.surname}, {newStudent.name}, {newStudent.number}";
+
+            dnof.Students.Add(newStudent);
+            array.Items.Add(newStudentString);
+           
+        }
+
+        private void saveButton_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }
